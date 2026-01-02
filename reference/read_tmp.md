@@ -49,7 +49,7 @@ Other Output readers:
 # Example with package data
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut
 tmp_file <- file.path(tmpdir, "TxtInOut", "tmp1.tmp")
 tmp_data <- read_tmp(tmp_file)
 head(tmp_data$gauges)

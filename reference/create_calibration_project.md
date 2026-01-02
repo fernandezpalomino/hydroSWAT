@@ -72,7 +72,7 @@ Other Multiobjective calibration:
 # Write the example SWAT project into a temporary directory
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut
 
 # Create a calibration project (adds Backup) and set it as working directory
 create_calibration_project(
@@ -81,6 +81,6 @@ create_calibration_project(
   project_name    = "calib_project",
   set_working_dir = TRUE
 )
-#> The calibration project has been successfully created in /tmp/Rtmp9rCxra/calib_project/TxtInOut
+#> The calibration project has been successfully created in /tmp/RtmpWxZ4hT/calib_project/TxtInOut
 # }
 ```

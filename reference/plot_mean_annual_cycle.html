@@ -35,7 +35,7 @@ starting month for the water year."></head><body>
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Plot mean annual cycle by evaluation periods</h1>
-      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/v0.1.0/R/performance-04-plots.R" class="external-link"><code>R/performance-04-plots.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/main/R/performance-04-plots.R" class="external-link"><code>R/performance-04-plots.R</code></a></small>
       <div class="d-none name"><code>plot_mean_annual_cycle.Rd</code></div>
     </div>
 
@@ -112,7 +112,7 @@ year starts. Required when <code>water_year = TRUE</code> and ignored when
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">tmpdir</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/tempfile.html" class="external-link">tempdir</a></span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="get_swat_example.html">get_swat_example</a></span><span class="op">(</span><span class="va">tmpdir</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut</span>
 <span class="r-in"><span><span class="va">rch_file</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">tmpdir</span>, <span class="st">"TxtInOut"</span>, <span class="st">"output.rch"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">rch_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="output_rch.html">output_rch</a></span><span class="op">(</span></span></span>
 <span class="r-in"><span>  file <span class="op">=</span> <span class="va">rch_file</span>, variable <span class="op">=</span> <span class="st">"FLOW_OUTcms"</span>,</span></span>

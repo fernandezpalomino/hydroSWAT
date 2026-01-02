@@ -37,7 +37,7 @@ different gridded precipitation datasets instead of the original inputs."></head
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Update SWAT precipitation input files (`pcp*.pcp`)</h1>
-      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/v0.1.0/R/preprocessing_tools.R" class="external-link"><code>R/preprocessing_tools.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/main/R/preprocessing_tools.R" class="external-link"><code>R/preprocessing_tools.R</code></a></small>
       <div class="d-none name"><code>pcp2swat.Rd</code></div>
     </div>
 
@@ -89,7 +89,7 @@ updated files will be written. Defaults to the current working directory.</p></d
 <span class="r-in"><span><span class="co"># Prepare example SWAT TxtInOut and NetCDF inputs</span></span></span>
 <span class="r-in"><span><span class="va">tmpdir</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/tempfile.html" class="external-link">tempdir</a></span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">txtinout</span> <span class="op">&lt;-</span> <span class="fu"><a href="get_swat_example.html">get_swat_example</a></span><span class="op">(</span><span class="va">tmpdir</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut</span>
 <span class="r-in"><span><span class="va">pcp_files</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.files.html" class="external-link">list.files</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">txtinout</span><span class="op">)</span>, pattern <span class="op">=</span> <span class="st">"^pcp.*\\.pcp$"</span>, full.names <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">pr_nc</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">"extdata"</span>, <span class="st">"pr.nc"</span>, package <span class="op">=</span> <span class="st">"hydroSWAT"</span><span class="op">)</span></span></span>
@@ -107,7 +107,7 @@ updated files will be written. Defaults to the current working directory.</p></d
 <span class="r-in"><span><span class="va">outdir</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">tmpdir</span>, <span class="st">"updated_pcp"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/files2.html" class="external-link">dir.create</a></span><span class="op">(</span><span class="va">outdir</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu">pcp2swat</span><span class="op">(</span><span class="va">pr_data</span>, <span class="va">pcp_files</span>, output_dir <span class="op">=</span> <span class="va">outdir</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> pcp*.pcp files were written into: /tmp/Rtmp9rCxra/updated_pcp</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> pcp*.pcp files were written into: /tmp/RtmpWxZ4hT/updated_pcp</span>
 <span class="r-in"><span><span class="co"># }</span></span></span>
 </code></pre></div>
     </div>

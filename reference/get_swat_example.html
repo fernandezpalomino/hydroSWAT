@@ -35,7 +35,7 @@ provides a self-contained example SWAT project for testing and tutorials."></hea
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Write example SWAT TxtInOut files to a local folder</h1>
-      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/v0.1.0/R/project_setup_and_execution.R" class="external-link"><code>R/project_setup_and_execution.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/main/R/project_setup_and_execution.R" class="external-link"><code>R/project_setup_and_execution.R</code></a></small>
       <div class="d-none name"><code>get_swat_example.Rd</code></div>
     </div>
 
@@ -85,7 +85,7 @@ Defaults to the current working directory.</p></dd>
 <span class="r-in"><span><span class="co"># Write files to a temporary directory</span></span></span>
 <span class="r-in"><span><span class="va">path</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/tempfile.html" class="external-link">tempdir</a></span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu">get_swat_example</span><span class="op">(</span><span class="va">path</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Inspect files</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/list.files.html" class="external-link">list.files</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">path</span>, <span class="st">"TxtInOut"</span><span class="op">)</span><span class="op">)</span></span></span>

@@ -92,7 +92,7 @@ tmpdir <- tempdir()
 
 # Get example SWAT project
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut
 setwd(file.path(tmpdir, "TxtInOut"))
 
 # Modify GW_DELAY in .gw globally

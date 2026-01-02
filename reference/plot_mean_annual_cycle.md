@@ -69,7 +69,7 @@ Other Performance evaluation:
 ``` r
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut
 rch_file <- file.path(tmpdir, "TxtInOut", "output.rch")
 rch_data <- output_rch(
   file = rch_file, variable = "FLOW_OUTcms",
