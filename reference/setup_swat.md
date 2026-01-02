@@ -119,7 +119,7 @@ Other Project setup and execution:
 
   tmpdir <- tempdir()
   get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpzZaKls/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpitMhWQ/TxtInOut
   setwd(file.path(tmpdir, "TxtInOut"))
 
   # List available variables
