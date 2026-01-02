@@ -84,7 +84,7 @@ A list containing:
 # --- Example with Reach data ---
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpeqtiwL/TxtInOut
 rch_file <- file.path(tmpdir, "TxtInOut", "output.rch")
 rch_data <- output_rch(file = rch_file, variable = c("FLOW_OUTcms"),
                        target_id = NULL, time_step = "daily",

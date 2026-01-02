@@ -55,7 +55,7 @@ Other Preprocessing tools:
 # Prepare example SWAT TxtInOut and NetCDF inputs
 tmpdir <- tempdir()
 txtinout <- get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpWxZ4hT/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpeqtiwL/TxtInOut
 tmp_files <- list.files(file.path(txtinout), pattern = "^tmp.*\\.tmp$", full.names = TRUE)
 
 tmax_nc <- system.file("extdata", "tasmax.nc", package = "hydroSWAT")
@@ -78,6 +78,6 @@ tmin_data <- areal_mean(tmin_grid, subs1, "2010-01-01", time_step = "day")
 outdir <- file.path(tmpdir, "updated_tmp")
 dir.create(outdir)
 tmp2swat(tmax_data, tmin_data, tmp_files, output_dir = outdir)
-#> tmp*.tmp files were written into: /tmp/RtmpWxZ4hT/updated_tmp
+#> tmp*.tmp files were written into: /tmp/RtmpeqtiwL/updated_tmp
 # }
 ```

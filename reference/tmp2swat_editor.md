@@ -101,7 +101,7 @@ tmp2swat_editor(grid_tmax, grid_tmin, subs1, "2010-01-01", output_dir = tempdir(
 #> Data period is from: 2010-01-01 to 2010-01-07
 #>   |                                                                              |                                                                      |   0%  |                                                                              |=======================                                               |  33%  |                                                                              |===============================================                       |  67%  |                                                                              |======================================================================| 100%
 #> Writing SWAT temperature input files...
-#> Output files written to: /tmp/RtmpWxZ4hT/tmp_swat
+#> Output files written to: /tmp/RtmpeqtiwL/tmp_swat
 # }
 
 if (FALSE) { # \dontrun{
