@@ -64,7 +64,7 @@ Other Output readers:
 # Example with package data
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpqhcGSX/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
 hru_file <- file.path(tmpdir, "TxtInOut", "output.hru")
 hru_data <- output_hru(file = hru_file, variable = c("PRECIPmm", "ETmm", "WYLDmm"),
                        target_id = NULL, time_step = "daily",

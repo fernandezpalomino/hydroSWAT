@@ -45,7 +45,7 @@ Other Output readers:
 # Example with package data
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpqhcGSX/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
 pcp_file <- file.path(tmpdir, "TxtInOut", "pcp1.pcp")
 pcp_data <- read_pcp(pcp_file)
 head(pcp_data$gauges)

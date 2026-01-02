@@ -63,7 +63,7 @@ Other Output readers:
 # Example with package data
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpqhcGSX/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
 rch_file <- file.path(tmpdir, "TxtInOut", "output.rch")
 rch_data <- output_rch(file = rch_file, variable = c("FLOW_OUTcms"),
                        target_id = NULL, time_step = "daily",

@@ -50,7 +50,7 @@ Other Preprocessing tools:
 # Prepare example SWAT TxtInOut and NetCDF inputs
 tmpdir <- tempdir()
 txtinout <- get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpqhcGSX/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/Rtmp9rCxra/TxtInOut
 pcp_files <- list.files(file.path(txtinout), pattern = "^pcp.*\\.pcp$", full.names = TRUE)
 
 pr_nc <- system.file("extdata", "pr.nc", package = "hydroSWAT")
@@ -68,6 +68,6 @@ pr_data <- areal_mean(pr_grid, subs1, "2010-01-01", time_step = "day")
 outdir <- file.path(tmpdir, "updated_pcp")
 dir.create(outdir)
 pcp2swat(pr_data, pcp_files, output_dir = outdir)
-#> pcp*.pcp files were written into: /tmp/RtmpqhcGSX/updated_pcp
+#> pcp*.pcp files were written into: /tmp/Rtmp9rCxra/updated_pcp
 # }
 ```
