@@ -1,7 +1,7 @@
 [![License: GPL v3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![R-CMD-check](https://github.com/fernandezpalomino/hydroSWAT/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/fernandezpalomino/hydroSWAT/actions/workflows/R-CMD-check.yaml)
 [![pkgdown](https://github.com/fernandezpalomino/hydroSWAT/actions/workflows/pkgdown.yaml/badge.svg)](https://fernandezpalomino.github.io/hydroSWAT/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18132897.svg)](https://doi.org/10.5281/zenodo.18132897)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18132896.svg)](https://doi.org/10.5281/zenodo.18132896)
 [![Changelog](https://img.shields.io/badge/Changelog-NEWS-blue)](https://fernandezpalomino.github.io/hydroSWAT/news/index.html)
 
 <img src="man/figures/hydroSWAT_logo.png" alt="hydroSWAT logo" align="right" style="height:120px;"/>
