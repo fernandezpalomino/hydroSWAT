@@ -54,16 +54,17 @@ vignette.
 
 ## 📄 Citation
 
-To cite **hydroSWAT** in publications:
+If you use **hydroSWAT** in your work, please cite:
+
+Fernandez-Palomino, C. A. (2026). *hydroSWAT: Tools for multi-objective
+calibration and workflows for the SWAT model in R*. Zenodo.
+<https://doi.org/10.5281/zenodo.18132896>
+
+You can also obtain the citation directly from R:
 
 ``` r
 citation("hydroSWAT")
 ```
-
-**Current citation:**  
-Fernandez-Palomino, C.A. (2026). *hydroSWAT: Tools for multi‑objective
-calibration and workflows for the SWAT model in R*. Available at:
-<https://github.com/fernandezpalomino/hydroSWAT>
 
 ## 🤝 Contributing
 

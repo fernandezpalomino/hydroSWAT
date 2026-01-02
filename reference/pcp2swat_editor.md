@@ -86,7 +86,7 @@ pcp2swat_editor(grid, subs1, "2010-01-01", output_dir = tempdir())
 #> Data period is from: 2010-01-01 to 2010-01-07
 #>   |                                                                              |                                                                      |   0%  |                                                                              |=======================                                               |  33%  |                                                                              |===============================================                       |  67%  |                                                                              |======================================================================| 100%
 #> Writing SWAT precipitation input files...
-#> Output files written to: /tmp/RtmpeqtiwL/pcp_swat
+#> Output files written to: /tmp/RtmpzZaKls/pcp_swat
 # }
 
 if (FALSE) { # \dontrun{
