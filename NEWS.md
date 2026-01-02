@@ -1,13 +1,15 @@
-# hydroSWAT Changelog
-
-## (development version)
+# hydroSWAT (development version)
 
 * Under development.
 
-## 0.1.0
-2026-01-02
+# hydroSWAT 0.1.0
 
-* Initial release of **hydroSWAT**.
-* Implements NSGA‑II for multi‑objective calibration with parallel execution.
-* Tools for climate data preparation, SWAT execution, model performance evaluation (20+ hydrological metrics), and post‑processing.
-* Includes a full step‑by‑step calibration workflow vignette.
+* Initial public release of **hydroSWAT**.
+* Multi-objective calibration using the NSGA-II evolutionary algorithm.
+* Full parallel execution support.
+* Tools for:
+  - Climate data preparation
+  - SWAT model execution
+  - Performance evaluation (20+ hydrological metrics)
+  - Post-processing at HRU, subbasin, and river-reach levels
+* Includes a complete step-by-step calibration workflow vignette.
