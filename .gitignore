@@ -1,0 +1,25 @@
+# RStudio / R session files
+.Rproj.user
+*.Rproj
+.Rhistory
+.RData
+.Rprofile
+
+# Package build artifacts
+/doc/
+/Meta/
+/*.tar.gz
+/*.Rcheck/
+
+# pkgdown build output (keep configuration files)
+docs.zip
+
+# renv environment (optional)
+renv/
+renv.lock
+
+# Operating system and miscellaneous files
+.DS_Store
+.httr-oauth
+.quarto
+*.lock

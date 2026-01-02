@@ -1,0 +1,10 @@
+citHeader("To cite hydroSWAT in publications, use:")
+
+citEntry(
+  entry        = "Misc",
+  title        = "hydroSWAT: Tools for multi‑objective calibration and workflows for the SWAT model in R",
+  author       = person("Carlos A.", "Fernandez-Palomino"),
+  year         = "2026",
+  note         = "Available at https://github.com/fernandezpalomino/hydroSWAT",
+  textVersion  = "Fernandez-Palomino, C.A. (2026). hydroSWAT: Tools for multi‑objective calibration and workflows for the SWAT model in R. Available at: https://github.com/fernandezpalomino/hydroSWAT"
+)

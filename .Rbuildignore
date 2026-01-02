@@ -1,0 +1,14 @@
+^renv$
+^renv\.lock$
+^.*\.Rproj$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^docs$
+^paper$
+^\.github$
+^doc$
+^Meta$
+^\.Rhistory$
+^\.Rprofile$
+^vignettes/calibrating_swat\.Rmd$
+^LICENSE\.md$

@@ -1,0 +1,9 @@
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  calibrating_swat: calibrating_swat.html
+last_built: 2025-12-31T07:13Z
+urls:
+  reference: https://fernandezpalomino.github.io/hydroSWAT/reference
+  article: https://fernandezpalomino.github.io/hydroSWAT/articles

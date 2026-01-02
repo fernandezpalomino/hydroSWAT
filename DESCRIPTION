@@ -1,0 +1,53 @@
+Package: hydroSWAT
+Version: 0.1.0
+Type: Package
+Title: Multiobjective Calibration and Workflow Tools for SWAT
+Description: Provides tools for the multi-objective 
+    calibration and workflow automation for the Soil and Water Assessment Tool
+    (SWAT). Implements the elitist Non-dominated Sorting Genetic Algorithm II 
+    (NSGA-II) with parallel execution for efficient optimization of large 
+    parameter sets. Enables flexible calibration configurations, including 
+    multi-site, multi-variable, multi-metric, and multi-period strategies, 
+    enhancing the robustness of model calibration. Additional tools support 
+    preparation of climate forcing data, execution of SWAT simulations, 
+    performance evaluation using more than 20 hydrological metrics, and 
+    post-processing for spatiotemporal analysis of SWAT outputs. 
+    Compatible with both standard SWAT and its tropical variant (SWAT-T).
+Authors@R: person("Carlos Antonio", "Fernandez Palomino",
+                  email = "cafpxl@gmail.com",
+                  role = c("aut", "cre", "cph"),
+                  comment = c(ORCID = "0000-0002-0573-4025"))
+Maintainer: Carlos Antonio Fernandez Palomino <cafernandezpalomino@gmail.com>
+Funder: YAKUANDES (financed and supported the development of the package)
+License: GPL (>= 3) | file LICENSE
+URL: https://fernandezpalomino.github.io/hydroSWAT, https://github.com/fernandezpalomino/hydroSWAT
+BugReports: https://github.com/fernandezpalomino/hydroSWAT/issues
+Encoding: UTF-8
+Depends: R (>= 3.6.0)
+Imports:
+    tibble,
+    dplyr,
+    tidyr,
+    readr,
+    stringr,
+    rlang,
+    plyr,
+    exactextractr,
+    lubridate,
+    sf,
+    terra,
+    nsga2R,
+    hydroGOF,
+    foreach,
+    doParallel,
+    ggplot2
+LazyData: true
+ByteCompile: true
+RoxygenNote: 7.3.2
+NeedsCompilation: no
+BuildVignettes: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

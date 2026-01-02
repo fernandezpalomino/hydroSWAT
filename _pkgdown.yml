@@ -1,0 +1,117 @@
+url: https://fernandezpalomino.github.io/hydroSWAT/
+output_dir: docs
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: cyborg
+
+navbar:
+  title: "hydroSWAT"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Reference"
+      href: reference/index.html
+    - text: "Articles"
+      href: articles/index.html
+    - text: "News"
+      href: news/index.html
+
+reference:
+  - title: "Preprocessing tools"
+    desc: >
+      Functions for preparing SWAT model input data, including
+      climate forcings, parameter files, and TxtInOut inputs.
+    contents:
+      - areal_mean
+      - pcp2swat_editor
+      - tmp2swat_editor
+      - pcp2swat
+      - tmp2swat
+
+  - title: "Project setup and execution"
+    desc: >
+      Tools for configuring, initializing, and running SWAT projects,
+      including example datasets and model executables.
+    contents:
+      - download_swat_exe
+      - get_swat_example
+      - setup_swat
+      - run_swat
+      - run_swat_exe
+
+  - title: "Parameter management"
+    desc: >
+      Functions for retrieving, modifying, and organizing SWAT model
+      parameters, including support for parallel calibration workflows.
+    contents:
+      - get_swat_parameters
+      - change_parameter
+      - change_multiple_parameters
+      - split_swat_parameters
+
+  - title: "Multiobjective calibration"
+    desc: >
+      Multiobjective calibration tools for SWAT based on the NSGA-II
+      evolutionary algorithm.
+    contents:
+      - create_calibration_project
+      - calibrate_swat
+      - calculate_objectives
+      - best_compromise_solution
+
+  - title: "Performance evaluation"
+    desc: >
+      Model performance assessment using classical goodness-of-fit
+      metrics and hydrological signatures, including Flow Duration
+      Curve (FDC)–based diagnostics.
+    contents:
+      - evaluate_swat
+      - gof_metrics
+      - fdc_signature
+      - pbias_fdc_midsegment
+      - pbias_fdc_target_segment
+      - trmse
+      - plot_timeseries
+      - plot_mean_annual_cycle
+      - plot_fdc
+
+  - title: "Output readers"
+    desc: >
+      Functions for reading and parsing SWAT output files at different
+      spatial levels (HRU, subbasin, and reach).
+    contents:
+      - get_swat_vars
+      - output_rch
+      - output_sub
+      - output_hru
+      - read_pcp
+      - read_tmp
+
+  - title: "Output analysis"
+    desc: >
+      Tools for aggregating, summarizing, and analyzing SWAT simulation
+      outputs for further interpretation and visualization.
+    contents:
+      - summarize_swat_output
+
+  - title: "Data"
+    desc: >
+      Example datasets bundled with the package for demonstrations,
+      testing, and reproducible vignettes.
+    contents:
+      - example_basin_datasets
+      - gridded_climate_netcdfs
+      - subs1
+      - riv1
+      - swat_txtinout_data
+      - qobserved
+
+articles:
+  - title: "Calibration Workflow"
+    contents:
+      - calibrating_swat
+
+github:
+  url: https://github.com/fernandezpalomino/hydroSWAT
