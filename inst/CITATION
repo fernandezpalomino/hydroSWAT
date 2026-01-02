@@ -1,10 +1,16 @@
-citHeader("To cite hydroSWAT in publications, use:")
+citHeader("To cite hydroSWAT in publications, please use:")
 
-citEntry(
-  entry        = "Misc",
-  title        = "hydroSWAT: Tools for multi‑objective calibration and workflows for the SWAT model in R",
-  author       = person("Carlos A.", "Fernandez-Palomino"),
-  year         = "2026",
-  note         = "Available at https://github.com/fernandezpalomino/hydroSWAT",
-  textVersion  = "Fernandez-Palomino, C.A. (2026). hydroSWAT: Tools for multi‑objective calibration and workflows for the SWAT model in R. Available at: https://github.com/fernandezpalomino/hydroSWAT"
+bibentry(
+  bibtype = "Misc",
+  title   = "hydroSWAT: Tools for multi-objective calibration and workflows for the SWAT model in R",
+  author  = person(
+    given  = "Carlos A.",
+    family = "Fernandez-Palomino",
+    role   = c("aut", "cre")
+  ),
+  year    = "2026",
+  doi     = "10.5281/zenodo.18132896",
+  url     = "https://doi.org/10.5281/zenodo.18132896",
+  note    = "R package",
+  textVersion = "Fernandez-Palomino, C. A. (2026). hydroSWAT: Tools for multi-objective calibration and workflows for the SWAT model in R. Zenodo. https://doi.org/10.5281/zenodo.18132896"
 )
