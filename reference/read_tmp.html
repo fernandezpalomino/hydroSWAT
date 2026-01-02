@@ -41,7 +41,7 @@ and maximum and minimum temperatures for each station)."></head><body>
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Read temperature data from SWAT .tmp files</h1>
-      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/main/R/output_readers.R" class="external-link"><code>R/output_readers.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/fernandezpalomino/hydroSWAT/blob/v0.1.0/R/output_readers.R" class="external-link"><code>R/output_readers.R</code></a></small>
       <div class="d-none name"><code>read_tmp.Rd</code></div>
     </div>
 
@@ -92,7 +92,7 @@ format.</p></dd>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Example with package data</span></span></span>
 <span class="r-in"><span><span class="va">tmpdir</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/tempfile.html" class="external-link">tempdir</a></span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="get_swat_example.html">get_swat_example</a></span><span class="op">(</span><span class="va">tmpdir</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/RtmpUu15Uv/TxtInOut</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> SWAT TxtInOut files written to: /tmp/RtmpqhcGSX/TxtInOut</span>
 <span class="r-in"><span><span class="va">tmp_file</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">tmpdir</span>, <span class="st">"TxtInOut"</span>, <span class="st">"tmp1.tmp"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">tmp_data</span> <span class="op">&lt;-</span> <span class="fu">read_tmp</span><span class="op">(</span><span class="va">tmp_file</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">tmp_data</span><span class="op">$</span><span class="va">gauges</span><span class="op">)</span></span></span>

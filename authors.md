@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/fernandezpalomino/hydroSWAT/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/fernandezpalomino/hydroSWAT/blob/v0.1.0/inst/CITATION)
 
 Fernandez-Palomino, C.A. (2026). hydroSWAT: Tools for multi‑objective
 calibration and workflows for the SWAT model in R. Available at:
