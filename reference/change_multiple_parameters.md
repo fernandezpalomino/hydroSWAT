@@ -53,7 +53,7 @@ library(tibble)
 
 tmpdir <- tempdir()
 get_swat_example(tmpdir)
-#> SWAT TxtInOut files written to: /tmp/RtmpitMhWQ/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/Rtmp1rHxSO/TxtInOut
 setwd(file.path(tmpdir, "TxtInOut"))
 
 # Define multiple parameter changes
