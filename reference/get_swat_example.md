@@ -43,7 +43,7 @@ Other Project setup and execution:
 # Write files to a temporary directory
 path <- tempdir()
 get_swat_example(path)
-#> SWAT TxtInOut files written to: /tmp/RtmppRAQpp/TxtInOut
+#> SWAT TxtInOut files written to: /tmp/RtmpqY7Pkt/TxtInOut
 
 # Inspect files
 list.files(file.path(path, "TxtInOut"))
